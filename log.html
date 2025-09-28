@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 0 5px 0 5px;
+        }
+
+        .container {
+            margin-top: 10px;
+            height: 480px;
+            width: 100%;
+            display: flex;
+        }
+
+        .inr-1 {
+            width: 50%;
+            padding: 10px 0 0 0;
+            text-align: center;
+        }
+
+        .inr-2 {
+            width: 50%;
+            background-image: url(./log.in.png);
+            background-size: cover;
+            /* border-bottom-left-radius: 10%;
+            border-top-left-radius: 10%; */
+        }
+
+        .chent {
+            display: block;
+            justify-content: center;
+            padding-left: 25%;
+        }
+
+        .email {
+            /* margin-top: 10px; */
+            padding: 5px 100px 5px 5px;
+            height: 25px;
+            margin: 30px;
+            margin-left: 0;
+            display: block;
+        }
+
+        .main p {
+            margin-top: 50px;
+            text-align: left;
+            padding-bottom: 4px;
+        }
+
+        .main input {
+            margin-top: 0;
+        }
+
+
+        .main2 {
+            text-align: left;
+        }
+
+        .main2 a {
+            text-align: right;
+            margin-left: 5px;
+        }
+
+        .btn {
+            padding: 10px 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(28, 97, 146);
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            color: blue;
+            background-color: white;
+        }
+
+        .sign-in {
+            padding: 10px 50px 10px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 20px;
+            transition-duration: 0.5s;
+        }
+
+        .sign-in:hover {
+            box-shadow: 0px 4px 10px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inr-1">
+            <h1>welcome back</h1>
+            <h5>please enter your details</h5>
+            <div class="chent">
+                <div class="main">
+                    <p>enter your email</p>
+                    <input class="email" type="email" placeholder="enter your email">
+                </div>
+                <div class="main">
+                    <p>enter your password</p>
+                    <input class="email" type="password" placeholder="enter your password">
+                </div>
+                <div class="main2">
+                    <input type="checkbox">remember for 30 days
+                    <a href="">forgot password</a>
+                </div>
+            </div>
+            <button class="btn">
+                login
+            </button>
+            <div class="main">
+                <a href="./demo.html"><button class="sign-in"><i class="fab fa-google"></i>
+                        sign in with google</button></a>
+            </div>
+        </div>
+        <div class="inr-2">
+        </div>
+    </div>
+</body>
+
+</html>
